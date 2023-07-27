@@ -14,8 +14,8 @@ function App() {
   const {darkTheme, themeHandler} = GetThemeValues();
 
   return (
-    <div className={`${darkTheme ? "bg-[#202c36]" : "bg-[rgb(242,242,242)]"} w-[100%]`}>
-      <div className= {`${darkTheme ? "bg-[#2b3944] text-white" : "bg-[rgb(255,255,255)]"} flex w-[100%] mt-0 p-5 lg:px-32 sm:px-12 md:px-28 h-[80px] mx-auto font-mono justify-between items-center bg-white `} >
+    <div className={`${darkTheme ? "bg-[#202c37]" : "bg-[rgb(242,242,242)]"} w-[100%]`}>
+      <div className= {`${darkTheme ? "bg-[#2b3945] text-white" : "bg-[rgb(255,255,255)]"} flex w-[100%] mt-0 p-5 lg:px-32 sm:px-12 md:px-28 h-[80px] mx-auto font-mono justify-between items-center bg-white `} >
         <h1 className='text-sm font-semibold lg:text-xl md:text-lg'>Where in the World?</h1>
         <div className='flex gap-2 items-center'>
           <img alt='Dark Mode' src={darkTheme ? sunIcon :moonIcon} onClick={themeHandler} className= {`${darkTheme ? " bg-#2B3844" : "bg-#2B3844"} w-[100%] lg:h-7 md:h-6 sm:h-6 h-5 font-extrabold`} /> 
@@ -23,7 +23,7 @@ function App() {
           <span className= {`${darkTheme ? " text-white" : "bg-white"} w-[100%] uppercase lg:text-lg text-sm  text-black`}>Mode</span>
         </div>
       </div>
-
+      
       <Router>
         <Routes>
           <Route path='/' element={<FlagCard/>}/>
