@@ -24,12 +24,12 @@ function App() {
         </div>
       </div>
       
-      <Router>
+
         <Routes>
           <Route path='/' element={<FlagCard/>}/>
           <Route path='/details/:id' element={<Details/>}/> 
         </Routes>
-      </Router>
+
 
     </div>
   );

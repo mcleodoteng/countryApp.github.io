@@ -4,17 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ContextTheme } from './components/ContextTheme';
-import { BrowserRouter, HashRouter } from 'react-router-dom';
+import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   
-    <ContextTheme>
+   <Router>
+    <ContextTheme>      
+        <App />        
+    </ContextTheme>
+   </Router>
       
-        <App />
-        
-    </ContextTheme>  
   </React.StrictMode>
 );
 
