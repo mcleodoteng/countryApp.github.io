@@ -40,13 +40,13 @@ export const Details = () => {
   
   return (
 
-    <div className= {`${darkTheme ? "bg-[#202c36]" : "bg-[#f2f2f2]"} w-[100%]`}>
+    <div className= {`${darkTheme ? "bg-[#202c36]" : "bg-[#f2f2f2]"} w-[100%] lg:h-[100vh]`}>
         
     
         <div>
-            <button onClick={() =>{navigate("/")}} className={`${darkTheme ? "bg-[#2b3945] text-white" : "bg-[#f2f2f2]"} w-[29%] text-lg bg-white  lg:w-[10%] lg:mx-32 md:w-[11%] md:mx-28 sm:w-[16%] sm:mx-12 flex flex-row gap-2 mt-8 ml-6 px-6 py-1 shadow-lg shadow-black font-thin`}><MdArrowBack className='mt-1 mx-auto text-lg'/>Back</button>
+            <button onClick={() =>{navigate("/")}} className={`${darkTheme ? "bg-[#2b3944] text-white" : "bg-[#f2f2f2]"} w-[29%] text-lg bg-white  lg:w-[10%] lg:mx-32 md:w-[11%] md:mx-28 sm:w-[16%] sm:mx-12 flex flex-row gap-2 mt-8 ml-6 px-6 py-1 shadow-lg shadow-black font-thin`}><MdArrowBack className='mt-1 mx-auto text-lg'/>Back</button>
         </div>
-        {/* <Flag countryNames={countryNames} setCountryName={setCountryName}/> */}
+
         {
                 isLoading && <LoadingPage/>
             }

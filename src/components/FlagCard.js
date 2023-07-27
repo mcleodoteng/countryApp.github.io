@@ -46,8 +46,7 @@ const FlagCard = () => {
          
         fetchRegionApi(regionName)
        
-        //console.log(regionName)
-        //fetchFilterCountrByRegionData('africa')
+
     },[regionName])
     console.log(regionName)
 
@@ -60,14 +59,14 @@ const FlagCard = () => {
             <Search countryInfo ={countryInfo} setCountry={setCountry}/>
 
             <div className='px-4 lg:mx-24 md:mx-24 sm:mx-7'>
-                {/* <p className='bg-white p-2 w-[52%] mt-4 lg:w-[100%] sm:w-[30%] md:w-[100%]'>Filter by Region</p> */}
+
                 <Filter regionName={regionName} setRegion={setRegion}/>
                 
             </div>
         </div>
         
 
-        <div className='lg:grid lg:grid-cols-4 lg:w-[88%] items-center lg:mx-auto sm:grid sm:grid-cols-2 sm:w-[90%] sm:mx-auto md:grid md:grid-cols-2 md:w-[80%] md:mx-auto'>
+        <div className=' lg:grid lg:grid-cols-4 lg:w-[88%] items-center lg:mx-auto sm:grid sm:grid-cols-2 sm:w-[90%] sm:mx-auto md:grid md:grid-cols-2 md:w-[80%] md:mx-auto'>
             
             {
                 isLoading && <LoadingPage/>

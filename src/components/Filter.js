@@ -10,10 +10,8 @@ import data from '../assets/data.json'
 
 
 const Filter = ({regionName, setRegion}) => {
-    //const [isLoading, setisLoading] = useState(false);
     const [filtervalue, setFilterValue] = useState("");
     const countryDataAPI = useContext(countryContext);
-    //const [regionName, setRegion] = useState("");
     const[isLoading, setisLoading]= useState(false)
     const[apiData, setApiData] =useState([])
     const[isError, setisError] = useState(false)
@@ -27,25 +25,6 @@ const Filter = ({regionName, setRegion}) => {
         setRegion(e.target.value);
         
     }
-    
-    
-    useEffect(()=> {
-        // setisLoading(true)
-        // async function fetchRegionApi(region){
-
-        //     const response = await axios.get(`https://restcountries.com/v3.1/region/${region}`)
-        //     const data = await response.data
-        //     setApiData(data)
-        //     setisLoading(false)
-        //     console.log(data)
-        // }
-        // fetchRegionApi()
-        //fetchFilterCountrByRegionData('asia')
-    },[])
-
-    
-
-    //console.log(regionName)
 
 
   return (

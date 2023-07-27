@@ -44,9 +44,9 @@ const DetailsCard = ({countryData}) => {
                         <div className='mt-10 lg:flex md:flex '>
                             <h1 className={`${darkTheme ? "text-white" : "bg-[#f2f2f2]"} font-semibold text-lg`}>Border Countries:</h1>
                             <div className='flex justify-between ml-6 mt-5 w-[80%] gap-4 lg:w-[60%] lg:mx-2 lg:mt-0 md:w-[60%] md:mx-2 md:mt-0 font-thin'>
-                                <p className={`${darkTheme ? "bg-[#2b3945] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[0]}</p>
-                                <p className={`${darkTheme ? "bg-[#2b3945] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[1]}</p>
-                                <p className={`${darkTheme ? "bg-[#2b3945] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[2]}</p>
+                                <p className={`${darkTheme ? "bg-[#2b3944] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[0]}</p>
+                                <p className={`${darkTheme ? "bg-[#2b3944] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[1]}</p>
+                                <p className={`${darkTheme ? "bg-[#2b3944] text-white shadow-black" : "bg-[#f2f2f2]"} bg-white px-4 py-1  shadow-lg`}>{countryData?.borders[2]}</p>
                             </div>
                         </div>
                         <br/>
