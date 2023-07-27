@@ -15,7 +15,6 @@ export const Flag = ({countryData}) => {
 
   const {darkTheme} = GetThemeValues();
   const[apiData, setApiData] =useState([])
-  //const[countryNames, setCountryName] =useState('')
   const[isLoading, setisLoading]= useState(false)
   const[isError, setisError] = useState(false)
   const navigate = useNavigate();
