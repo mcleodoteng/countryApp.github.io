@@ -10,10 +10,6 @@ import { Flag } from './Flag';
 
 export const Search = ({countryInfo, setCountry}) => {
     
-    //const[countryInfo, setCountry] = useState('');
-    // const countryDataAPI = useContext(countryContext);
-    // const{ isLoading,countryData, fetchSearchCountryData} = useCountryDataApi()
-    //const { fetchSearchCountryData } = countryDataAPI;
     const {darkTheme} = GetThemeValues();
 
 

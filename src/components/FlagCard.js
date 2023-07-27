@@ -16,9 +16,6 @@ const FlagCard = () => {
     const {id} = useParams();
   
 
-  
-
-
     useEffect(()=> {
         setisLoading(true)
         async function fetchCountryApi(){

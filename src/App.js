@@ -6,7 +6,7 @@ import data from './assets/data.json'
 import sunIcon from './assets/sun.png'
 import moonIcon from './assets/moon-20.png'
 import { GetThemeValues } from './components/ContextTheme';
-import NavBar from './components/NavBar';
+
 
 
 
@@ -31,9 +31,6 @@ function App() {
         </Routes>
       </Router>
 
-      {/* /flagcard/:id */}
-
-      
     </div>
   );
 }

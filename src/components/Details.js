@@ -33,7 +33,6 @@ export const Details = () => {
     }
     
     fetchCountryNameApi(id)
-
   
   },[id])
   

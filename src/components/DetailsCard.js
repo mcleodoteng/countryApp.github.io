@@ -3,6 +3,7 @@ import { GetThemeValues } from '../components/ContextTheme';
 
 const DetailsCard = ({countryData}) => {
     const {darkTheme} = GetThemeValues();
+    
   return (
     <div>
         <div className='mt-12'>

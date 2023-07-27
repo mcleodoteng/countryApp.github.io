@@ -26,7 +26,6 @@ const Filter = ({regionName, setRegion}) => {
         
     }
 
-
   return (
     
     <div>

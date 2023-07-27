@@ -9,6 +9,7 @@ export const ContextTheme = ({children}) => {
         setDarkTheme((prev) => !prev);
     }
   return (
+    
     <ThemeContext.Provider value={{darkTheme,themeHandler}}>
         {children}
     </ThemeContext.Provider>

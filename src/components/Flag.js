@@ -20,11 +20,6 @@ export const Flag = ({countryData}) => {
   const navigate = useNavigate();
   const {id} = useParams();
   
-
-  
-
-  //const router = useRouter();
-  
   
   const Handlechange =(e) => {
 
